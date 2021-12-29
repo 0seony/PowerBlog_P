@@ -1,13 +1,12 @@
-package com.jpjc.powerblog.yseon;
+package com.jpjc.powerblog.joseungwan;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class YseonControllerTest {
-	
-	@GetMapping("/0seony/test")
+public class JSWControllerTest {
+	@GetMapping("/joseungwan/test")
 	public String hello(){
-		return("<h1>hello im 0seony!!! <h1>");
+		return("<h1>hello im seungwan!!<h1>");
 	}
 }
